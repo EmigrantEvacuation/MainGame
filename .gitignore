@@ -1,0 +1,33 @@
+==========
+  Unity 
+==========
+Temp/
+Library/
+*.meta
+
+=======================
+   VS or Monodevelop
+=======================
+ExportedObj/
+obj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+
+========
+   OS
+========
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+

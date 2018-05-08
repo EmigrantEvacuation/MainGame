@@ -37,7 +37,7 @@ namespace UvaSimulator.Uva.ControlCalculator
         // Aerodynamic 
 		[SerializeField] private float liftEffect = 0.002f;               // lift effect caused by speed from wings
         [SerializeField] private float linearDragFactor = 0.001f;         // how much linear drag should increase
-        [SerializeField] private float angularDragFactor = 0.05f;          // how much angular drag should increase 
+        [SerializeField] private float angularDragFactor = 0.08f;          // how much angular drag should increase 
         [SerializeField] private float airDensity = 2.0f;                 // air Density
         [SerializeField] private float airDynamicEffect = 2.0f;           // air dynamic effect for the direction of the velocity
 
@@ -47,7 +47,7 @@ namespace UvaSimulator.Uva.ControlCalculator
         [SerializeField] private float airBrakeEffect = 0.09f;     // brakes
         [SerializeField] private float fuelAmount = 200.0f;        // total fuel
         [SerializeField] private float pitchEffect = 2.5f;         // pitch Effect
-        [SerializeField] private float rollEffect = 4f;          // roll Effect
+        [SerializeField] private float rollEffect = 3f;          // roll Effect
         [SerializeField] private float yawEffect = 1.2f;           // yaw Effect
         [SerializeField] private float throttleChangeSpeed = 0.3f; // the speed of throttle changing
         [SerializeField] private float wingArea = 0.01f;            // the area of wings 
